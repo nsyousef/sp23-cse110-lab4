@@ -18,3 +18,8 @@ The code returns an error because `result` was declared using `let` so `result` 
 
 ## Question 5
 
+The code will return an error. `result` is declared as a constant, so it cannot be reassigned and line 7 will give an error.
+
+## Question 6
+
+The code will return an error. `result` is declared as a constant and cannot be reassigned, so an error will occur in line 7.

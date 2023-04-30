@@ -46,15 +46,15 @@ The function will return `[50, 100, 150]`. The function first declares two varia
 
 ## Question 12
 
-A. student.name;
+A. `student.name;`
 
-B. student['Grad Year'];
+B. `student['Grad Year'];`
 
-C. student.greeting();
+C. `student.greeting();`
 
-D. student['Favorite Teacher'].name;
+D. `student['Favorite Teacher'].name;`
 
-E. student.courseLoad[0];
+E. `student.courseLoad[0];`
 
 ## Question 13
 

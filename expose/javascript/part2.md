@@ -75,3 +75,25 @@ G. `'3undefined'` - `undefined` is converted to the string `'undefined'` adn is 
 
 H. `NaN` - The string `'3'` is converted to the number `3` and `undefined` is converted to `NaN`. The arithmetic `3 - NaN` is performed, which results in an output of `NaN`.
 
+## Question 14
+
+A. `true` - The string `'2'` is converted to the number `2` and is then compared with the number `1`.
+
+B. `false` - The strings are compared character by character starting at the first character. Since `'2'` comes after `'1'` in unicode, the string `'2'` is greater than the string `'12'` so the comparison evaluates to `false`.
+
+C. `true` - The string `'2'` is converted to the number `2` and the comparison is performed. Since `2` is equal to `2`, the comparison evaluates to `true`.
+
+D. `false` - Beacuse the strict equality operator (`===`) was used, no type conversion is performed before the comparison. Because `2` and `'2'` are of different data types, the comparison evaluates to `false`.
+
+E. `false` - `true` is converted to the number `1` before the comparison is performed. Since `1` is not equal to `2`, the comparison returns `false`.
+
+F. `true` - The `Boolean()` function converts the number `2` to the boolean `true`. The boolean `true` is then compared with the boolean `true` using the strict equality operator (`===`). Because both values being compared are of the same data type and are the same value, the expression evaluates to `true`.
+
+## Question 15
+
+The `===` operator evaluate to `false` if the objects on either side of it are not of the same data type. If the objects are of the same data type, it compares them as normal. By contrast, if the `==` operator has objects of different data types on either side of it, it converts the objects to numbers and then compares the numbers.
+
+## Questoin 16
+
+see `part2-question16.js`
+

@@ -47,19 +47,31 @@ The function will return `[50, 100, 150]`. The function first declares two varia
 ## Question 12
 
 A. student.name;
+
 B. student['Grad Year'];
+
 C. student.greeting();
+
 D. student['Favorite Teacher'].name;
+
 E. student.courseLoad[0];
 
 ## Question 13
 
 A. `'32'` - The number `2` is converted into the string `'2'` and is then concatenated with the string `'3'`.
+
 B. `1` - The string `'3'` is converted to the number `3`, then `2` is subtracted from it.
+
 C. `3` - `null` is converted to `0` and then the arithmetic is performed.
-D. `'3null'` - `null` is converted to the string `'null'`, which is then concatenated to the string `'3'`.
+
+D. `'3null'` - `null` is converted to the string `'null'`, which is then concatenated to the string 
+`'3'`.
+
 E. `4` - The boolean `true` is converted to the number `1` and is then added to `3`.
+
 F. `0` - `false` is converted to the number `0` and `null` is also converted to the number `0`. The two `0`'s are then added together.
+
 G. `'3undefined'` - `undefined` is converted to the string `'undefined'` adn is then concatenated with `'3'`.
+
 H. `NaN` - The string `'3'` is converted to the number `3` and `undefined` is converted to `NaN`. The arithmetic `3 - NaN` is performed, which results in an output of `NaN`.
 

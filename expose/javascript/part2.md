@@ -101,3 +101,7 @@ see `part2-question16.js`
 
 The function `modifyArray([1,2,3], doSomething);` will return `[2, 4, 6]`. First, `modifyArray([1,2,3], doSomething);` is called. Inside the `modifyArray` function, `newArr`, an empty array, is created. Next, the for loop iterates through each element of `array` and calls the function `doSomething` which is stored in the variable `callback` on that element of the array. The result of the call to `callback` is added to `newArr`. `doSomething` takes a number and returns the product of that number and 2. Therefore, the result returned by `modifyArray([1,2,3], doSomething);` is the array `[2, 4, 6]`.
 
+## Question 18
+
+see `part2-question18.js`
+

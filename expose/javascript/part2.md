@@ -105,3 +105,13 @@ The function `modifyArray([1,2,3], doSomething);` will return `[2, 4, 6]`. First
 
 see `part2-question18.js`
 
+## Question 19
+
+Output:
+```
+1
+4
+3
+2
+```
+

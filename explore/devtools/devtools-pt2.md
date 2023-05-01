@@ -1,0 +1,4 @@
+# Explore: Devtools Part 2
+
+1. The variables `num1` and `num2` in `calculateSum()` are of type `string` instead of type `number`. Therefore, when `result` is initialized in line 11, instead of containing the sum of the numbers the user entered, it contains the concatenation of the numbers the user entered. `calculateSum()` returns this new string contained in `result` and the string is displayed on the webpage in line 7.
+2. To fix the bug, I would change line 11 in the `calculateSum()` function to read `let result = Number(num1) + Number(num2);` instead of `let result = num1 + num2` (note: the semicolon at the end of the line was missing in the original code, but that is not what caused the bug). Please see the screenshot of the fix, in the file `fix.png`. This fix converts the type of the arguments passed into `calculateSum()` into the number data type so that they can be added properly instead of being concatenated together. 
